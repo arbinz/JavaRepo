@@ -1,4 +1,3 @@
-package RoachPopulation;
 
 import java.util.TimerTask;
 
