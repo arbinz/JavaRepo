@@ -24,9 +24,18 @@ public class CaesarCipher
             // It is a command line option
 
             char option = arg.charAt(1);
-            if (option == 'd') { key = -key; }
-            else { usage(); return; }
+            if (option == 'd')
+            { 
+            	key = -key; 
+            }
+            else if(option == 'r')
+            {
+            	
+            	key = key;
+            }
+            
          }
+         
          else
          {  
             // It is a file name
@@ -44,9 +53,11 @@ public class CaesarCipher
 
       while (in.hasNext())
       {
+    	
          char from = in.next().charAt(0);
          char to = encrypt(from, key);
          out.print(to);
+         
       }
       in.close();
       out.close();               
@@ -70,6 +81,19 @@ public class CaesarCipher
       if (offset > LETTERS) { offset = offset - LETTERS; }
       else if (offset < 0) { offset = offset + LETTERS; }
       return (char) (base + offset);
+   }
+   
+   public static char decrypt(char ch, int key)
+   {
+      int base = 0;
+      if ('A' <= ch && ch <= 'Z') { base = 'A'; }
+      else if ('a' <= ch && ch <= 'z') { base = 'a'; }
+      else { return ch; } // Not a letter
+      int offset = ch + base - key;
+      final int LETTERS = 26; // Number of letters in the Roman alphabet
+      if (offset > LETTERS) { offset = offset - LETTERS; }
+      else if (offset < 0) { offset = offset + LETTERS; }
+      return (char) (base - offset);
    }
 
    /**
