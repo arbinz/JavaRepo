@@ -1,0 +1,32 @@
+Caesar Cipher Questions
+Self Check 11-15
+Questions 16-18
+
+11.
+-d 
+file1.txt
+
+12.
+java CaesarCipher [-d] infile outfile
+
+13.
+No. The ‘-d’ needs to be the first two characters after ‘CaesarCipher’. The program will interpret it as a file instead, and will have a runtime error.
+
+14.
+ZXBPXO
+
+15.
+else if (option == ‘k’)
+{
+	key = Integer.parseInt(
+		args[i].substring(2));
+}
+
+16.
+the character in the array is assigned a numeric value, which is increased in value, and converted back, converting Z to C, and z to c
+
+17.
+the character in the array is assigned a numeric value, which is increased in value, and converted back, converting x to a, and X to A
+
+18.
+They are disregarded.
