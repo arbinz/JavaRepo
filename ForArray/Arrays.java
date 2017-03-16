@@ -1,5 +1,3 @@
-package ForArrays;
-
 public class Arrays
 {
 	
