@@ -1,5 +1,3 @@
-package Collections;
-
 import java.util.Stack;
 import java.util.Scanner;
 
