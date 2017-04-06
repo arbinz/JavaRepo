@@ -2,6 +2,7 @@ import java.util.*;
 public class LinkedListExample {
      public static void main(String args[]) {
 
+          //winston
          // declaring
          LinkedList<String> linkedlist = new LinkedList<String>();
 
