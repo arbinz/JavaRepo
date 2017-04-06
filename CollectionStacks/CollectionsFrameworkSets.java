@@ -1,5 +1,3 @@
-package Collections;
-
 import java.util.*;
 
 //1. Sam, Colin
