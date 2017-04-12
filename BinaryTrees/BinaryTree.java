@@ -1,5 +1,3 @@
-package BinaryTrees;
-
 /*17.13:
  * 									Mary
  * 				had			  						white
