@@ -1,4 +1,4 @@
-![Wrisk](/ImageFiles/logoSmall.png)
+![Wrisk](ImageFiles/logoSmall.png)
 
 Wrisk
 =====
