@@ -1,0 +1,25 @@
+Red Colour:
+255,0,0
+
+Green Colour:
+64,201,19
+
+Blue Colour:
+62,130,255
+
+Orange Colour:
+255,156,0
+
+Purple Colour:
+149,12,255
+
+Grey Colour:
+160,160,160
+
+Dot Size 2-6:
+134
+Dot Size 1:
+201
+
+Die Size:
+500x500
