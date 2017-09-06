@@ -1,5 +1,3 @@
-package TankerCalc;
-
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;
