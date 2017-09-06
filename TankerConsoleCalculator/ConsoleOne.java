@@ -1,5 +1,3 @@
-package TankerCalc;
-
 import java.util.Scanner;
 
 public class ConsoleOne
