@@ -26,15 +26,15 @@ public class AgeGraphComponent extends JComponent
 		
 		
 		//initialize birthdays and daysFrom values
-		Day markoBday = new Day(2017,2,19);
+		Day markoBday = new Day(2018,2,19);
 		int daysToBday = markoBday.daysFrom(today);
-		Day jasmineBday = new Day(2016,12,17);
+		Day jasmineBday = new Day(2017,12,17);
 		int jdaysToBday = jasmineBday.daysFrom(today);
-		Day mumBday = new Day(2017,7,12);
+		Day mumBday = new Day(2018,7,12);
 		int mdaysToBday = mumBday.daysFrom(today);
-		Day courtneyBday = new Day(2017,3,21);
+		Day courtneyBday = new Day(2018,3,21);
 		int cdaysToBday = courtneyBday.daysFrom(today);
-		Day dadBday = new Day(2016,10,8);
+		Day dadBday = new Day(2017,10,8);
 		int ddaysToBday = dadBday.daysFrom(today);
 		
 		
