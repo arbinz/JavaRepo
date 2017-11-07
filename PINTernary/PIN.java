@@ -20,13 +20,16 @@ class PIN
 				if (out.equals("Your PIN is Correct"))
 				{
 					Running = false;
+					sc.close();
 				}
+				failedAttempts++;
 			}
 
 			else
 			{
 				System.out.println("YOUR CARD HAS BEEN BLOCKED");
 				Running = false;	
+				sc.close();
 			}
 		}	
 		
