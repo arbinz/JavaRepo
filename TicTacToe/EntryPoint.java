@@ -166,9 +166,9 @@ public class EntryPoint
 					{
 						System.out.println(" ---+---+---");
 					}
-					
 				}
 			}
 		}
+		scn.close();
 	}
 }
