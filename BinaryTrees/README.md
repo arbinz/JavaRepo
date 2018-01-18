@@ -1,1 +1,1 @@
-Simple banary tree app
+Simple binary tree app
