@@ -1,6 +1,4 @@
 //p 15.10
-package CollectionsProject;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
